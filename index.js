@@ -48,6 +48,14 @@ $("img").click(function(){
         $(this).attr("src", `https://picsum.photos/id/23${random}/200`);
         
         if (selectedImages[0] === selectedImages[1]) {
+
+            $("#title").fadeOut(200).fadeIn(200);
+            $("#title").text("Match! 👌");
+
+            setTimeout(function(){
+                $("#title").text("Annoying Memory 🤯 Game");
+            }, 2000)
+
             console.log("Score!");
             $(this).remove();
             total--;
@@ -58,4 +66,5 @@ $("img").click(function(){
         animatePic(this);
     }
 })
+
 
