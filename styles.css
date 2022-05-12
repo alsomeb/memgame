@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+
+h1 {
+    font-size: 5rem;
+    padding: 3% 3%;
+    color: #EC994B;
+    font-family: 'Water Brush', cursive;
+}
+
+.set {
+    padding: 5%;
+}
+
+.col img {
+    padding: 0.5%;
+}
+
+.img {
+    border-radius: 10%;
+}
